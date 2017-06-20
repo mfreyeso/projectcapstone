@@ -15,6 +15,7 @@
 		AC84AC6E1EF8C23300F633FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC84AC6C1EF8C23300F633FE /* LaunchScreen.storyboard */; };
 		AC84AC791EF8C23300F633FE /* ProjectCapstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84AC781EF8C23300F633FE /* ProjectCapstoneTests.swift */; };
 		AC84AC841EF8C23300F633FE /* ProjectCapstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84AC831EF8C23300F633FE /* ProjectCapstoneUITests.swift */; };
+		AC84AC921EF8D24A00F633FE /* SitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84AC911EF8D24A00F633FE /* SitesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC84AC7F1EF8C23300F633FE /* ProjectCapstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectCapstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC84AC831EF8C23300F633FE /* ProjectCapstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCapstoneUITests.swift; sourceTree = "<group>"; };
 		AC84AC851EF8C23300F633FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC84AC911EF8D24A00F633FE /* SitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AC84AC6A1EF8C23300F633FE /* Assets.xcassets */,
 				AC84AC6C1EF8C23300F633FE /* LaunchScreen.storyboard */,
 				AC84AC6F1EF8C23300F633FE /* Info.plist */,
+				AC84AC911EF8D24A00F633FE /* SitesViewController.swift */,
 			);
 			path = ProjectCapstone;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				AC84AC661EF8C23300F633FE /* SecondViewController.swift in Sources */,
 				AC84AC621EF8C23300F633FE /* AppDelegate.swift in Sources */,
 				AC84AC641EF8C23300F633FE /* FirstViewController.swift in Sources */,
+				AC84AC921EF8D24A00F633FE /* SitesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
