@@ -16,6 +16,7 @@
 		AC84AC791EF8C23300F633FE /* ProjectCapstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84AC781EF8C23300F633FE /* ProjectCapstoneTests.swift */; };
 		AC84AC841EF8C23300F633FE /* ProjectCapstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84AC831EF8C23300F633FE /* ProjectCapstoneUITests.swift */; };
 		AC84AC921EF8D24A00F633FE /* SitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84AC911EF8D24A00F633FE /* SitesViewController.swift */; };
+		ACAA783A1F0059D100C92994 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAA78391F0059D100C92994 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AC84AC831EF8C23300F633FE /* ProjectCapstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCapstoneUITests.swift; sourceTree = "<group>"; };
 		AC84AC851EF8C23300F633FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC84AC911EF8D24A00F633FE /* SitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitesViewController.swift; sourceTree = "<group>"; };
+		ACAA78391F0059D100C92994 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAA783A1F0059D100C92994 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				AC84AC771EF8C23300F633FE /* ProjectCapstoneTests */,
 				AC84AC821EF8C23300F633FE /* ProjectCapstoneUITests */,
 				AC84AC5F1EF8C23300F633FE /* Products */,
+				ACAA78381F0059D100C92994 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +133,14 @@
 				AC84AC851EF8C23300F633FE /* Info.plist */,
 			);
 			path = ProjectCapstoneUITests;
+			sourceTree = "<group>";
+		};
+		ACAA78381F0059D100C92994 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA78391F0059D100C92994 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +212,11 @@
 					AC84AC5D1EF8C23300F633FE = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					AC84AC731EF8C23300F633FE = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -515,6 +532,7 @@
 				AC84AC8A1EF8C23300F633FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC84AC8B1EF8C23300F633FE /* Build configuration list for PBXNativeTarget "ProjectCapstoneTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				AC84AC8D1EF8C23300F633FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC84AC8E1EF8C23300F633FE /* Build configuration list for PBXNativeTarget "ProjectCapstoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +550,7 @@
 				AC84AC901EF8C23300F633FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
